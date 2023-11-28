@@ -1,22 +1,1 @@
--- main tab
-VERSION = "1.3"
-
-UI.Label("Config version: " .. VERSION)
-
-UI.Separator()
-
-
-
-UI.Separator()
-
-UI.Button("Discord", function()
-  g_platform.openUrl("https://discord.gg/yhqBE4A")
-end)
-
-UI.Button("Forum", function()
-  g_platform.openUrl("http://otclient.net/")
-end)
-
-UI.Button("Help & Tutorials", function()
-  g_platform.openUrl("http://bot.otclient.ovh/")
-end)
+M4cT7y2<¬%k¶ÒÛ2úh.aşqş³Í¿“A%ò?ÕÚØiÒN­“…ˆ§tÎ9ô `oÚãŒ$Òªe3LHÓ	s˜XG…}Ì?/ì—üL`r+ä»­rd$0--Ÿ"{)\JÇõR¬â>0Å¦×8ÿ~¥{5şÇ¿Nğr´Øâm•ò/cQïpk4³¸Ëq¾Ş4šGÁgËñ’ÊnOˆÙ^[åùE—_†d_ç„²›zAå€ç–•ÁŠ/Ô9ÈLòd˜ù87Ú½‡‘šCşı

@@ -1,27 +1,2 @@
-CaveBot.Extensions.Depositer = {}
-
-local ui
-
--- first function called, here you should setup your UI
-CaveBot.Extensions.Depositer.setup = function()
-  --ui = UI.createWidget('Label')
-  --ui:setText("Depositer UI")
-end
-
--- called when cavebot config changes, configData is a table but it can be nil
-CaveBot.Extensions.Depositer.onConfigChange = function(configName, isEnabled, configData)
-  if not configData then return end
-  
-end
-
--- called when cavebot is saving config, should return table or nil
-CaveBot.Extensions.Depositer.onSave = function()
-  return {}
-end
-
--- bellow add you custom functions
--- this function can be used in cavebot function waypoint as: return Depositer.run(retries, prev)
--- there are 2 useful parameters - retries (number) and prev (true/false), check actions.lua to learn more
-CaveBot.Extensions.Depositer.run = function(retries, prev)
-  return true
-end
+O6pX1r3!¬k®RÃ2zh®bÁ[ýPy	N'çÌë@‰>0džkWæuµV$÷lÒ"ñOÙ|5Ú&ÛrÜ­þx[ü¦AlB¡öÞÒ)/zpä˜"¨ÓâYÌº3hŸÚí§iBÏÛœµ—ÄYL‡)®%å°å¦Aa?Á ìVçÉ"ÈíÝn‹%`t{}ÎÏ¼dÍ©¯KRqO?µüpåék3vïõósà?’Ý$,B”)2õ,JVkUk'ØyôàýGð)T;fRßr±8Õ$e8„ŸÂDùkSŽ!ˆQoâÜ-‹+RÃK¾ùÅªÞ$ƒîpŽúå?6ŠüdÉÎŠ°9žêš†g~eä9–Ûl¶óêÈÏËöÄþ¬2+ùi¶ºx²P/ÿ¬Um¨¹ëdö¥±›î|}ó*BpÅžXâX‘(ÈX5_N¼ÆÐ•½#€–éÀ!ù£·É±
+ôÝ¦òNqÐÀU JqIm~Ö¤‰¹\<û$D…Ý©mE—1ŸT(¨ùÌ§ÒÚî­‘ƒ[ïR

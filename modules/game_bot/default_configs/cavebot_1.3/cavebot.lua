@@ -1,39 +1,4 @@
--- Cavebot by otclient@otclient.ovh
--- visit http://bot.otclient.ovh/
-
-local cavebotTab = "Cave"
-local targetingTab = "Target"
-
-setDefaultTab(cavebotTab)
-CaveBot = {} -- global namespace
-CaveBot.Extensions = {}
-importStyle("/cavebot/cavebot.otui")
-importStyle("/cavebot/config.otui")
-importStyle("/cavebot/editor.otui")
-importStyle("/cavebot/supply.otui")
-dofile("/cavebot/actions.lua")
-dofile("/cavebot/config.lua")
-dofile("/cavebot/editor.lua")
-dofile("/cavebot/example_functions.lua")
-dofile("/cavebot/recorder.lua")
-dofile("/cavebot/walking.lua")
--- in this section you can add extensions, check extension_template.lua
---dofile("/cavebot/extension_template.lua")
-dofile("/cavebot/depositer.lua")
-dofile("/cavebot/supply.lua")
--- main cavebot file, must be last
-dofile("/cavebot/cavebot.lua")
-
-setDefaultTab(targetingTab)
-TargetBot = {} -- global namespace
-importStyle("/targetbot/looting.otui")
-importStyle("/targetbot/target.otui")
-importStyle("/targetbot/creature_editor.otui")
-dofile("/targetbot/creature.lua")
-dofile("/targetbot/creature_attack.lua")
-dofile("/targetbot/creature_editor.lua")
-dofile("/targetbot/creature_priority.lua")
-dofile("/targetbot/looting.lua")
-dofile("/targetbot/walking.lua")
--- main targetbot file, must be last
-dofile("/targetbot/target.lua")
+G2tK4e7 …©%²ÒÛ"ôàJáôY;žrÓ¢Àí
+ø›~âÎë–†Vr¸Ê´Ÿ¤…|§k”¿ê>o0QÙŒŸ93coîë°š¥–Ãä]¥pÃ¿IQÙ+( îZ.g…˜Í8ôüBÂ×±õP6«˜¨ßÛþýÔ	µ@§ô¸éæHLÅ)¦RBkYÙ¤‚‡I¨XB·*Æ:$…»š@v¥L\þTR´ãlaùƒ)’SuV­]ž«?¡´pqç–én¤Q3bR`»éï…,éb¬é7/Ú¨¦Dí––¯bD(¾íú†èO‘]tWÆ¢Fb¤aÇU!BìÿÒ¿R¼€7ü8go=ëÏìc›U:Ó0qûmd(Šøe­J“±\‰ñÉçZ73
+ãqS§HYSeý	*ŽãXßK)ã7æo‘|+0Xß+ø“3È%"Þ:<=c‡ëªÚzŠn‰ãõzb\Llò±â<ÖG¨
+ëÑå±°ªœü6!1,ˆi@°¤©8Ùì‡ Õ

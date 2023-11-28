@@ -1,26 +1,4 @@
-local minimap = modules.game_minimap.minimapWidget
-
-minimap.onMouseRelease = function(widget,pos,button)
-  if not minimap.allowNextRelease then return true end
-  minimap.allowNextRelease = false
-
-  local mapPos = minimap:getTilePosition(pos)
-  if not mapPos then return end
-
-  if button == 1 then
-    local player = g_game.getLocalPlayer()
-    if minimap.autowalk then
-      player:autoWalk(mapPos)
-    end
-    return true
-  elseif button == 2 then
-    local menu = g_ui.createWidget('PopupMenu')
-    menu:setId("minimapMenu")
-    menu:setGameMenu(true)
-    menu:addOption(tr('Create mark'), function() minimap:createFlagWindow(mapPos) end)
-    menu:addOption(tr('Add CaveBot GoTo'), function() CaveBot.addAction("goto", mapPos.x .. "," .. mapPos.y .. "," .. mapPos.z, true) CaveBot.save() end)
-    menu:display(pos)
-    return true
-  end
-  return false
-end
+N6rH2k5èáŒä²*;IiT9¿0Ë¾s™aìÄ2k*CÆZËù5±…6²
+ÜMt¾‹ÁÛ11t4&€Ú&!ÿÁ$Ñ!¶qI)%Ò4ã‡ÉP Ê2à~Aùš‹eC0É	ÁpÌ44´C\ÃFYÓø¢Âpå]ÌnJµÙ¼#ÀmWÈÖd^-V³æş<û5|’	lÊ—Z3+6¦0[Çëñ„U5:„îœğº¨w²E†E‚´«F‚±éğ(G<İ6HîpäÀmñCüÕò§»YWXT¢0Wˆ²¾©„üK¸i€Sˆ
+‚e·Kx…y+¼2@–ãZ¥EÃ€ùWÌ2…'cÌÈ[§úR+^(l´aÖ®QÈ^Àş5êÁèùa\néÂ\[†é—¬òéÿè5O/$ô14’·X‡Bó÷xãN½v8ßãì¸±õ~¤O%àÔç‡|–PıÌÕ\Yê’
+^õ	PƒƒaëTÛ¨8¨±*½Zª7³¾÷.IüG"(ü

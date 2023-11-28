@@ -1,28 +1,4 @@
-setDefaultTab("HP")
-
-UI.Label("Eatable items:")
-if type(storage.foodItems) ~= "table" then
-  storage.foodItems = {3582, 3577}
-end
-
-local foodContainer = UI.Container(function(widget, items)
-  storage.foodItems = items
-end, true)
-foodContainer:setHeight(35)
-foodContainer:setItems(storage.foodItems)
-
-
-macro(500, "Eat Food", function()
-  if player:getRegenerationTime() > 400 or not storage.foodItems[1] then return end
-  -- search for food in containers
-  for _, container in pairs(g_game.getContainers()) do
-    for __, item in ipairs(container:getItems()) do
-      for i, foodItem in ipairs(storage.foodItems) do
-        if item:getId() == foodItem.id then
-          return g_game.use(item)
-        end
-      end
-    end
-  end
-end)
-UI.Separator()
+E9fU3y1èá¬d¶ê;O	øv_©&¢x,èïB›üÒ¦=eÒ4®$£Å÷ àvUí*”Y+?´ßˆH/1Té¿(G}€¡¢åHÍ0ÖÃš2UÄ<ÓEDŸBˆJ	>>ÖXµÓ¸¿«İ´&²ØFùğë[
+²©+Æ—Ã‡‡Š¾R‚»à	–œo&nà­‡MbÉlÛX--\üÿj-'P_'Åå”ã|u¼@#äŞÌiu©ø5Së2ÊTHßÒ{şåOÜúë>ƒ¨&Nçş…%óÎ{İ{ÉI<
+'ümÑº½‚÷sóíHÆºAá^ûhD÷ÊGÿ*ü™wV±}Jæ@ò¼(V32ç«·‘>§©ªnõ.š
+â©4£ÏÂ§¢—‹9ƒ¼üO ­2Zë{zgC{ˆ	ø`~#æ)§¹Ÿ|²|—!İG¤+û¿b(¶Öñ¢£¶pÍí@8Äü´»?OØ¯ÎG(†{SÌÚİEkE

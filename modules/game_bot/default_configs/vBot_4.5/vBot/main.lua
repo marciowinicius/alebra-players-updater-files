@@ -1,40 +1,4 @@
-local version = "4.5"
-local currentVersion
-local available = false
-
-storage.checkVersion = storage.checkVersion or 0
-
--- check max once per 12hours
-if os.time() > storage.checkVersion + (12 * 60 * 60) then
-
-    storage.checkVersion = os.time()
-    
-    HTTP.get("https://raw.githubusercontent.com/Vithrax/vBot/main/vBot/version.txt", function(data, err)
-        if err then
-          warn("[vBot updater]: Unable to check version:\n" .. err)
-          return
-        end
-
-        currentVersion = data
-        available = true
-    end)
-
-end
-
-UI.Label("vBot v".. version .." \n Vithrax#5814")
-UI.Button("Official OTCv8 Discord!", function() g_platform.openUrl("https://discord.gg/yhqBE4A") end)
-UI.Separator()
-
-schedule(5000, function()
-
-    if not available then return end
-    if currentVersion ~= version then
-        
-        UI.Separator()
-        UI.Label("New vBot is available for download! v"..currentVersion)
-        UI.Button("Go to vBot GitHub Page", function() g_platform.openUrl("https://github.com/Vithrax/vBot") end)
-        UI.Separator()
-        
-    end
-
-end)
+F8gZ2q5!¨4²Pó˜óÔ5ÿyâ¸ªÍåæuGS.CL-X‡á’•Ô!ƒø#íEgUÇEÈ¢†ÌŽjÕd–¨2pÛ=Së/‡ù_ÜÄ÷*†·7Çi¢i0ªEø¾Ô‘ê©ŸQš’Q9$Víý->6v«Õ¸oî†ÕÕ+íT8ý‹¸Ÿ;Ní1¦ð"sS/Äb"Pá¶7´q…aÑªdOÒ§f¿$.{”u¬Fpõ¶®ë°ý#,~ÕLÒåÑéNÈ	›¦e ˆä9nÛf”¨¯²w3P8¤!‘î­%T@©xºw¸ÊvÇOŽÑ…t_.IÆ»6!Iô¼¥Ö@d[K]"ú"›ÕÑ÷:)ss)‡Ç|8"—Ñbm¡Ìc$Ùc
+(reú¡ÕõèÊË‰€pŽ(Åæ¼½@=3jåbœ
+ÿ650êÞ6]Kûcw>'ìOˆ¡]W·
+B‡lÔžÏ^…m;o3™˜ÜÜÐ4ºvÎs¸˜/ÿÍ¯k‡¤iJÅ…˜&”:êÁÇRyxD‹‰h²0‡>@ÇFÛÄ˜Cd2_ô,-AK\Pr›¯ij¤ái,ê¸rX²XýZ©Qª„œLH™[æ x“3 $‚5—ž°ºÐÁÓŠí¤‘uÜ,œô<•«û‚;Ö)¤Þü!B»HŠýi¡[š`

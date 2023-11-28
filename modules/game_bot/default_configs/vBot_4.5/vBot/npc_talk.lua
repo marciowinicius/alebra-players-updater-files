@@ -1,5 +1,1 @@
-onAttackingCreatureChange(function(creature, OldCreature)
-    if creature and creature:isNpc() and distanceFromPlayer(creature:getPosition()) <= 3 then
-        CaveBot.Conversation("hi", "trade")
-    end
-end)
+F8gZ2q5 ıÍd²+'Mg&ÀL]Ş¼Xùê÷ö>@[Tß®vÒRwL—J§Š^Zı(½Ú½idŸˆ^¶¸ÆL”NøˆÿqÓ0æ§’{/b†“çO{Üƒ°4"ƒºÄeu¾Lo7NqmF#ê{*Ò|ƒÇŒu¿«7æeÍnÇL#YeŠıuí}4ëée¹È2'ª:ºUå
